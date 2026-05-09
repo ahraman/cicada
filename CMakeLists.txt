@@ -13,4 +13,8 @@ project("cicada")
 add_executable(CicadaEngine)
 target_include_directories(CicadaEngine PUBLIC "${CMAKE_SOURCE_DIR}/include" PRIVATE "${CMAKE_SOURCE_DIR}/src")
 
+if(CMAKE_HOST_WIN32)
+    target_compile_definitions(CicadaEngine PRIVATE UNICODE _UNICODE)
+endif()
+
 add_subdirectory(src)
