@@ -1,3 +1,3 @@
-target_sources(CicadaEngine PRIVATE main.cpp)
+target_sources(CicadaEngine PRIVATE main.cpp PUBLIC preamble.h)
 
 add_subdirectory(preamble)
