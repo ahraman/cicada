@@ -1,3 +1,5 @@
+#include "cicada/core/preamble.h"
+
 #include <cstdlib>
 #include <iostream>
 
