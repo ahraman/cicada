@@ -1,4 +1,4 @@
-#include "cicada/core/preamble.h"
+#include "cicada/core/prelude.h"
 
 #include <cstdlib>
 #include <iostream>

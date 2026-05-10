@@ -1,5 +1,5 @@
-#ifndef CICADA_CORE_PREAMBLE_FLAG_MACROS_H_
-# define CICADA_CORE_PREAMBLE_FLAG_MACROS_H_
+#ifndef CICADA_CORE_PRELUDE_FLAG_MACROS_H_
+# define CICADA_CORE_PRELUDE_FLAG_MACROS_H_
 
 # if (!defined(CICADA_NO_DEBUG) && !defined(CICADA_DEBUG)) \
     && (defined(_DEBUG) || defined(DEBUG))
