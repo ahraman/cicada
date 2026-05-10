@@ -1,7 +1,7 @@
-#ifndef CICADA_CORE_PREAMBLE_TARGET_MACROS_H_
-# define CICADA_CORE_PREAMBLE_TARGET_MACROS_H_
+#ifndef CICADA_CORE_PRELUDE_TARGET_MACROS_H_
+# define CICADA_CORE_PRELUDE_TARGET_MACROS_H_
 
-# include "cicada/core/preamble/flag_macros.h"
+# include "cicada/core/prelude/flag_macros.h"
 
 # ifdef CICADA_PRAGMA_ONCE
 #  pragma once

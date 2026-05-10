@@ -1,8 +1,8 @@
-#ifndef CICADA_CORE_PREAMBLE_H_
-# define CICADA_CORE_PREAMBLE_H_
+#ifndef CICADA_CORE_PRELUDE_H_
+# define CICADA_CORE_PRELUDE_H_
 
-# include "cicada/core/preamble/flag_macros.h"
-# include "cicada/core/preamble/target_macros.h"
+# include "cicada/core/prelude/flag_macros.h"
+# include "cicada/core/prelude/target_macros.h"
 
 # include <cstdlib>
 # include <cstdint>
